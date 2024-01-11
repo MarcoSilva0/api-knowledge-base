@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  knowledge-base:
+    image: postgres
+    container_name: knowledge-base
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: knowledge
+    ports:
+      - "5432:5432"
+    restart: always
