@@ -24,3 +24,5 @@ Acessar a pasta node_modules (versao-inicial/backend/node_modules), dentro dela 
 Achar a linha referente ao migrate: var _migrate e corrigir para var _migrate = require('../migrations/migrate');
 
 Rodar o comando (create_table_users) novamente.
+
+Clonar o arquivo env_file base e renomear para .env
